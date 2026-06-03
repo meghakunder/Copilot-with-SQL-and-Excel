@@ -61,6 +61,9 @@ This project demonstrates the use of Microsoft Copilot-assisted analysis on a sa
 **Result**
 
 * West region recorded the highest sales.
+* The chart below shows total sales by region. The West region recorded the highest sales.
+
+![Total Sales by Region](Total%20Sales%20by%20Region.png)
 
 ---
 
