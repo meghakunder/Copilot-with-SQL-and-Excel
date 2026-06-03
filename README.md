@@ -1,1 +1,1 @@
-# copilot-playground
+# Copilot with SQL and Excel
