@@ -1,4 +1,7 @@
--- Create SalesData Table for MySQL 8.0
+-- Copilot with SQL : 
+-- Instruction : Use GitHub Copilot in SSMS to solve the following questions.
+-- Question 1 : Use Github Copilot to create a table SalesData whose columns are CustomerID, Name, Age, City,
+-- PurchaseAmount, PurchaseDate and then ask to insert 10,000 rows of random data.
 CREATE TABLE SalesData (
     CustomerID INT PRIMARY KEY AUTO_INCREMENT,
     Name VARCHAR(100) NOT NULL,
@@ -68,6 +71,7 @@ SELECT COUNT(*) AS TotalRecords FROM SalesData;
 SELECT * FROM SalesData LIMIT 20;
 
 -- ============================================================
+-- Question 2 : Use Copilot to:
 -- a) Find total sales per city
 -- ============================================================
 SELECT 
@@ -91,6 +95,7 @@ LIMIT 5;
 
 
 -- ============================================================
+-- Question 3  : Ask Copilot:
 -- Find customers with purchases above average
 -- ============================================================
 SELECT 
